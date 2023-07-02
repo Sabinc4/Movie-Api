@@ -1,0 +1,87 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav #mainTitle {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  nav input[type="text"] {
+    padding: 6px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  nav button {
+    padding: 6px 12px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the table */
+  table.list {
+    margin: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  table.list th,
+  table.list td {
+    padding: 1px;
+    text-align: left;
+  }
+  
+  table.list th {
+    background-color: #504c4c;
+    color: #fff;
+  }
+  
+  table.list tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table.list tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 600px) {
+    table.list {
+      margin: 10px;
+    }
+  
+    table.list th,
+    table.list td {
+      padding: 6px;
+    }
+  }
+  
